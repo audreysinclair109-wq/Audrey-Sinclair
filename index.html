@@ -8,50 +8,36 @@
     <meta name="author" content="Audrey Sinclair">
     <meta name="robots" content="index, follow">
     
-    <!-- Open Graph Meta Tags -->
     <meta property="og:title" content="Audrey Sinclair | Strategic Book Marketing Specialist Expert">
     <meta property="og:description" content="Transform your book into a bestseller with data-driven marketing strategies.">
-    <meta property="og:image" content="https://lh3.googleusercontent.com/sgi-eph/AO8RNkzDHtiVW8M3lLHo64fUcSIqbVkfL9DE-crq_dvxQXmNlIODMYU8_V6Gl60ocC-wWl8RtA6by-jTp7w3Xi1Io74JiF4r1qN0yzwjN-uJyS-arZkeQD-RmqvKkpHD4-HCz05LbuZcapYDivPDeCIiKVAvqGEcNgkI=s925">
+    <meta property="og:image" content="https://lh3.googleusercontent.com/a/ACg8ocLjKV_P3smuP8TZmN2fXriTPgTmB8ra_O5GnF9OqvgC5H9RL4E=s288-c-no">
     <meta property="og:type" content="website">
     
     <title>Audrey Sinclair | Strategic Book Marketing Specialist Expert</title>
     
-    <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>">
     
-    <!-- Preconnect for Performance -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://cdnjs.cloudflare.com">
     <link rel="preconnect" href="https://m.media-amazon.com">
     <link rel="preconnect" href="https://lh3.googleusercontent.com">
     
-    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
     
-    <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     
-    <!-- AOS Animation Library -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     
     <style>
-        /* ============================================
-           CSS CUSTOM PROPERTIES
-        ============================================ */
         :root {
-            /* Primary Colors */
             --primary-navy: #0d1b2a;
             --primary-navy-light: #1b263b;
             --primary-navy-medium: #415a77;
-            
-            /* Gold Accent */
             --gold: #d4af37;
             --gold-light: #e6c866;
             --gold-dark: #b8960c;
             --gold-muted: rgba(212, 175, 55, 0.15);
-            
-            /* Neutral Colors */
             --white: #ffffff;
             --off-white: #fdfbf7;
             --cream: #f8f5f0;
@@ -64,19 +50,13 @@
             --gray-700: #404040;
             --gray-800: #262626;
             --gray-900: #171717;
-            
-            /* Accent Colors */
             --success: #10b981;
             --warning: #f59e0b;
             --error: #ef4444;
             --info: #3b82f6;
-            
-            /* Typography */
             --font-display: 'Playfair Display', 'Cormorant Garamond', Georgia, serif;
             --font-body: 'Montserrat', -apple-system, BlinkMacSystemFont, sans-serif;
             --font-accent: 'Cormorant Garamond', Georgia, serif;
-            
-            /* Spacing */
             --space-xs: 0.25rem;
             --space-sm: 0.5rem;
             --space-md: 1rem;
@@ -86,16 +66,12 @@
             --space-3xl: 4rem;
             --space-4xl: 6rem;
             --space-5xl: 8rem;
-            
-            /* Border Radius */
             --radius-sm: 4px;
             --radius-md: 8px;
             --radius-lg: 12px;
             --radius-xl: 20px;
             --radius-2xl: 30px;
             --radius-full: 9999px;
-            
-            /* Shadows */
             --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
             --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
             --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
@@ -104,14 +80,10 @@
             --shadow-gold: 0 10px 40px -10px rgba(212, 175, 55, 0.3);
             --shadow-gold-lg: 0 20px 60px -15px rgba(212, 175, 55, 0.5);
             --shadow-dark: 0 20px 60px -15px rgba(13, 27, 42, 0.4);
-            
-            /* Transitions */
             --transition-fast: 150ms ease;
             --transition-base: 300ms ease;
             --transition-slow: 500ms ease;
             --transition-slower: 700ms ease;
-            
-            /* Z-Index Scale */
             --z-dropdown: 100;
             --z-sticky: 200;
             --z-fixed: 300;
@@ -122,12 +94,7 @@
             --z-preloader: 9999;
         }
 
-        /* ============================================
-           CSS RESET & BASE STYLES
-        ============================================ */
-        *,
-        *::before,
-        *::after {
+        *, *::before, *::after {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
@@ -193,9 +160,6 @@
             color: var(--primary-navy);
         }
 
-        /* ============================================
-           PRELOADER
-        ============================================ */
         .preloader {
             position: fixed;
             inset: 0;
@@ -321,9 +285,6 @@
             100% { transform: rotate(360deg); }
         }
 
-        /* ============================================
-           UTILITY CLASSES
-        ============================================ */
         .container {
             width: 100%;
             max-width: 1280px;
@@ -331,25 +292,9 @@
             padding: 0 var(--space-xl);
         }
 
-        .container-narrow {
-            max-width: 900px;
-        }
-
-        .container-wide {
-            max-width: 1440px;
-        }
-
         .section {
             padding: var(--space-5xl) 0;
             position: relative;
-        }
-
-        .section-sm {
-            padding: var(--space-3xl) 0;
-        }
-
-        .section-lg {
-            padding: var(--space-5xl) 0;
         }
 
         .bg-navy {
@@ -373,9 +318,6 @@
             color: var(--gold);
         }
 
-        /* ============================================
-           SECTION HEADER
-        ============================================ */
         .section-header {
             text-align: center;
             max-width: 700px;
@@ -440,9 +382,6 @@
             color: rgba(255, 255, 255, 0.7);
         }
 
-        /* ============================================
-           BUTTONS
-        ============================================ */
         .btn {
             display: inline-flex;
             align-items: center;
@@ -495,27 +434,6 @@
             color: var(--primary-navy);
         }
 
-        .btn-white {
-            background: var(--white);
-            color: var(--primary-navy);
-            box-shadow: var(--shadow-lg);
-        }
-
-        .btn-white:hover {
-            transform: translateY(-3px);
-            box-shadow: var(--shadow-xl);
-        }
-
-        .btn-dark {
-            background: var(--primary-navy);
-            color: var(--white);
-        }
-
-        .btn-dark:hover {
-            background: var(--primary-navy-light);
-            transform: translateY(-3px);
-        }
-
         .btn-lg {
             padding: var(--space-lg) var(--space-2xl);
             font-size: 0.9375rem;
@@ -526,9 +444,6 @@
             font-size: 0.8125rem;
         }
 
-        /* ============================================
-           NAVIGATION
-        ============================================ */
         .navbar {
             position: fixed;
             top: 0;
@@ -655,9 +570,6 @@
             transform: rotate(-45deg) translate(6px, -6px);
         }
 
-        /* ============================================
-           HERO SECTION
-        ============================================ */
         .hero {
             min-height: 100vh;
             display: flex;
@@ -694,7 +606,6 @@
             max-width: 900px;
         }
 
-        /* Hero Profile Image */
         .hero-profile {
             margin-bottom: var(--space-2xl);
         }
@@ -862,9 +773,6 @@
             color: rgba(255, 255, 255, 0.6);
         }
 
-        /* ============================================
-           TRUST BADGES
-        ============================================ */
         .trust-section {
             background: var(--white);
             padding: var(--space-2xl) 0;
@@ -906,9 +814,6 @@
             color: var(--gray-700);
         }
 
-        /* ============================================
-           ABOUT SECTION
-        ============================================ */
         .about-grid {
             display: grid;
             grid-template-columns: 1fr 1.2fr;
@@ -1090,9 +995,6 @@
             color: var(--gray-700);
         }
 
-        /* ============================================
-           SERVICES SECTION
-        ============================================ */
         .services-grid {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
@@ -1209,9 +1111,6 @@
             transform: translateX(5px);
         }
 
-        /* ============================================
-           PROCESS SECTION
-        ============================================ */
         .process-grid {
             display: grid;
             grid-template-columns: repeat(5, 1fr);
@@ -1272,9 +1171,6 @@
             line-height: 1.6;
         }
 
-        /* ============================================
-           RESULTS SECTION
-        ============================================ */
         .results-grid {
             display: grid;
             grid-template-columns: repeat(4, 1fr);
@@ -1326,9 +1222,6 @@
             color: rgba(255, 255, 255, 0.7);
         }
 
-        /* ============================================
-           TESTIMONIALS SECTION
-        ============================================ */
         .testimonials-grid {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
@@ -1525,9 +1418,6 @@
             font-size: 1rem;
         }
 
-        /* ============================================
-           CTA SECTION
-        ============================================ */
         .cta-section {
             position: relative;
             overflow: hidden;
@@ -1604,9 +1494,6 @@
             color: var(--gold);
         }
 
-        /* ============================================
-           CONTACT SECTION
-        ============================================ */
         .contact-grid {
             display: grid;
             grid-template-columns: 1fr 1.3fr;
@@ -1784,9 +1671,6 @@
             color: var(--gold);
         }
 
-        /* ============================================
-           NEWSLETTER SECTION
-        ============================================ */
         .newsletter-section {
             background: linear-gradient(135deg, var(--gold) 0%, var(--gold-dark) 100%);
             padding: var(--space-3xl) 0;
@@ -1848,9 +1732,6 @@
             transform: translateY(-2px);
         }
 
-        /* ============================================
-           FOOTER
-        ============================================ */
         .footer {
             background: var(--primary-navy);
             padding: var(--space-5xl) 0 var(--space-xl);
@@ -1973,9 +1854,6 @@
             color: var(--gold);
         }
 
-        /* ============================================
-           SCROLL TO TOP
-        ============================================ */
         .scroll-top {
             position: fixed;
             bottom: 30px;
@@ -2007,9 +1885,6 @@
             box-shadow: 0 15px 40px rgba(212, 175, 55, 0.4);
         }
 
-        /* ============================================
-           RESPONSIVE STYLES
-        ============================================ */
         @media (max-width: 1200px) {
             .hero-profile-image {
                 width: 180px;
@@ -2241,22 +2116,20 @@
     </style>
 </head>
 <body>
-    <!-- Preloader with Expert Image -->
     <div class="preloader" id="preloader">
         <div class="preloader-image">
-            <img src="https://lh3.googleusercontent.com/sgi-eph/AO8RNkzDHtiVW8M3lLHo64fUcSIqbVkfL9DE-crq_dvxQXmNlIODMYU8_V6Gl60ocC-wWl8RtA6by-jTp7w3Xi1Io74JiF4r1qN0yzwjN-uJyS-arZkeQD-RmqvKkpHD4-HCz05LbuZcapYDivPDeCIiKVAvqGEcNgkI=s925" alt="Audrey Sinclair">
+            <img src="https://lh3.googleusercontent.com/a/ACg8ocLjKV_P3smuP8TZmN2fXriTPgTmB8ra_O5GnF9OqvgC5H9RL4E=s288-c-no" alt="Audrey Sinclair">
         </div>
         <div class="preloader-logo">Audrey <span>Sinclair</span></div>
         <div class="preloader-spinner"></div>
         <div class="preloader-text">Crafting Excellence</div>
     </div>
 
-    <!-- Navigation -->
     <nav class="navbar" id="navbar">
         <div class="container navbar-container">
             <a href="#home" class="navbar-logo">
                 <div class="navbar-logo-image">
-                    <img src="https://lh3.googleusercontent.com/sgi-eph/AO8RNkzDHtiVW8M3lLHo64fUcSIqbVkfL9DE-crq_dvxQXmNlIODMYU8_V6Gl60ocC-wWl8RtA6by-jTp7w3Xi1Io74JiF4r1qN0yzwjN-uJyS-arZkeQD-RmqvKkpHD4-HCz05LbuZcapYDivPDeCIiKVAvqGEcNgkI=s925" alt="Audrey Sinclair">
+                    <img src="https://lh3.googleusercontent.com/a/ACg8ocLjKV_P3smuP8TZmN2fXriTPgTmB8ra_O5GnF9OqvgC5H9RL4E=s288-c-no" alt="Audrey Sinclair">
                 </div>
                 Audrey <span>Sinclair</span>
             </a>
@@ -2282,17 +2155,15 @@
         </div>
     </nav>
 
-    <!-- Hero Section -->
     <section class="hero" id="home">
         <div class="hero-pattern"></div>
         <div class="container hero-container">
-            <!-- Circular Profile Image at Top -->
             <div class="hero-profile" data-aos="zoom-in">
                 <div class="hero-profile-image">
                     <div class="hero-profile-glow"></div>
                     <div class="hero-profile-ring"></div>
                     <div class="hero-profile-inner">
-                        <img src="https://lh3.googleusercontent.com/sgi-eph/AO8RNkzDHtiVW8M3lLHo64fUcSIqbVkfL9DE-crq_dvxQXmNlIODMYU8_V6Gl60ocC-wWl8RtA6by-jTp7w3Xi1Io74JiF4r1qN0yzwjN-uJyS-arZkeQD-RmqvKkpHD4-HCz05LbuZcapYDivPDeCIiKVAvqGEcNgkI=s925" alt="Audrey Sinclair - Strategic Book Marketing Specialist Expert">
+                        <img src="https://lh3.googleusercontent.com/a/ACg8ocLjKV_P3smuP8TZmN2fXriTPgTmB8ra_O5GnF9OqvgC5H9RL4E=s288-c-no" alt="Audrey Sinclair - Strategic Book Marketing Specialist Expert">
                     </div>
                 </div>
             </div>
@@ -2340,7 +2211,6 @@
         </div>
     </section>
 
-    <!-- Trust Badges -->
     <section class="trust-section">
         <div class="container">
             <div class="trust-container" data-aos="fade-up">
@@ -2378,7 +2248,6 @@
         </div>
     </section>
 
-    <!-- About Section with Circular Image -->
     <section class="section bg-cream" id="about">
         <div class="container">
             <div class="about-grid">
@@ -2386,7 +2255,7 @@
                     <div class="about-image-main">
                         <div class="about-image-ring"></div>
                         <div class="about-image-inner">
-                            <img src="https://lh3.googleusercontent.com/sgi-eph/AO8RNkzDHtiVW8M3lLHo64fUcSIqbVkfL9DE-crq_dvxQXmNlIODMYU8_V6Gl60ocC-wWl8RtA6by-jTp7w3Xi1Io74JiF4r1qN0yzwjN-uJyS-arZkeQD-RmqvKkpHD4-HCz05LbuZcapYDivPDeCIiKVAvqGEcNgkI=s925" alt="Audrey Sinclair - Book Marketing Expert">
+                            <img src="https://lh3.googleusercontent.com/a/ACg8ocLjKV_P3smuP8TZmN2fXriTPgTmB8ra_O5GnF9OqvgC5H9RL4E=s288-c-no" alt="Audrey Sinclair - Book Marketing Expert">
                         </div>
                     </div>
                     <div class="about-image-decoration"></div>
@@ -2446,7 +2315,6 @@
         </div>
     </section>
 
-    <!-- Services Section -->
     <section class="section bg-white" id="services">
         <div class="container">
             <div class="section-header" data-aos="fade-up">
@@ -2572,7 +2440,6 @@
         </div>
     </section>
 
-    <!-- Process Section -->
     <section class="section bg-cream">
         <div class="container">
             <div class="section-header" data-aos="fade-up">
@@ -2615,7 +2482,6 @@
         </div>
     </section>
 
-    <!-- Results Section -->
     <section class="section bg-navy" id="results">
         <div class="container">
             <div class="section-header" data-aos="fade-up">
@@ -2689,7 +2555,6 @@
         </div>
     </section>
 
-    <!-- Testimonials Section -->
     <section class="section bg-cream" id="testimonials">
         <div class="container">
             <div class="section-header" data-aos="fade-up">
@@ -2703,7 +2568,6 @@
                 </p>
             </div>
             <div class="testimonials-grid">
-                <!-- Testimonial 1: Rachael C Duncan -->
                 <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
                     <div class="testimonial-header">
                         <a href="https://www.amazon.com/stores/author/B00N447WH8" target="_blank" rel="noopener noreferrer" class="testimonial-author-image" title="View Rachael C Duncan on Amazon">
@@ -2747,7 +2611,6 @@
                     </div>
                 </div>
 
-                <!-- Testimonial 2: Kate Cullen -->
                 <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
                     <div class="testimonial-header">
                         <a href="https://www.amazon.com/stores/author/B00X6NNBTA" target="_blank" rel="noopener noreferrer" class="testimonial-author-image" title="View Kate Cullen on Amazon">
@@ -2791,7 +2654,6 @@
                     </div>
                 </div>
 
-                <!-- Testimonial 3: Emily Winfield -->
                 <div class="testimonial-card" data-aos="fade-up" data-aos-delay="300">
                     <div class="testimonial-header">
                         <a href="https://www.amazon.com/Wildest-Thing-Emily-Winfield-Martin/dp/B0F8MT53BR/" target="_blank" rel="noopener noreferrer" class="testimonial-author-image" title="View Emily Winfield on Amazon">
@@ -2838,12 +2700,11 @@
         </div>
     </section>
 
-    <!-- CTA Section with Expert Image -->
     <section class="section bg-navy cta-section">
         <div class="container">
             <div class="cta-content" data-aos="fade-up">
                 <div class="cta-profile">
-                    <img src="https://lh3.googleusercontent.com/sgi-eph/AO8RNkzDHtiVW8M3lLHo64fUcSIqbVkfL9DE-crq_dvxQXmNlIODMYU8_V6Gl60ocC-wWl8RtA6by-jTp7w3Xi1Io74JiF4r1qN0yzwjN-uJyS-arZkeQD-RmqvKkpHD4-HCz05LbuZcapYDivPDeCIiKVAvqGEcNgkI=s925" alt="Audrey Sinclair">
+                    <img src="https://lh3.googleusercontent.com/a/ACg8ocLjKV_P3smuP8TZmN2fXriTPgTmB8ra_O5GnF9OqvgC5H9RL4E=s288-c-no" alt="Audrey Sinclair">
                 </div>
                 <div class="section-badge">
                     <i class="fas fa-rocket"></i>
@@ -2865,7 +2726,6 @@
         </div>
     </section>
 
-    <!-- Contact Section -->
     <section class="section bg-white" id="contact">
         <div class="container">
             <div class="contact-grid">
@@ -2974,7 +2834,6 @@
         </div>
     </section>
 
-    <!-- Newsletter Section -->
     <section class="newsletter-section">
         <div class="container">
             <div class="newsletter-container" data-aos="fade-up">
@@ -2991,14 +2850,13 @@
         </div>
     </section>
 
-    <!-- Footer with Expert Image -->
     <footer class="footer">
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-brand">
                     <h3>
                         <div class="footer-brand-image">
-                            <img src="https://lh3.googleusercontent.com/sgi-eph/AO8RNkzDHtiVW8M3lLHo64fUcSIqbVkfL9DE-crq_dvxQXmNlIODMYU8_V6Gl60ocC-wWl8RtA6by-jTp7w3Xi1Io74JiF4r1qN0yzwjN-uJyS-arZkeQD-RmqvKkpHD4-HCz05LbuZcapYDivPDeCIiKVAvqGEcNgkI=s925" alt="Audrey Sinclair">
+                            <img src="https://lh3.googleusercontent.com/a/ACg8ocLjKV_P3smuP8TZmN2fXriTPgTmB8ra_O5GnF9OqvgC5H9RL4E=s288-c-no" alt="Audrey Sinclair">
                         </div>
                         Audrey <span>Sinclair</span>
                     </h3>
@@ -3056,19 +2914,13 @@
         </div>
     </footer>
 
-    <!-- Scroll to Top Button -->
     <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
         <i class="fas fa-chevron-up"></i>
     </button>
 
-    <!-- AOS Animation Library -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     
-    <!-- Main JavaScript -->
     <script>
-        // ============================================
-        // PRELOADER
-        // ============================================
         window.addEventListener('load', function() {
             const preloader = document.getElementById('preloader');
             setTimeout(function() {
@@ -3076,9 +2928,6 @@
             }, 2000);
         });
 
-        // ============================================
-        // INITIALIZE AOS
-        // ============================================
         AOS.init({
             duration: 800,
             easing: 'ease-out-cubic',
@@ -3089,9 +2938,6 @@
             }
         });
 
-        // ============================================
-        // NAVBAR SCROLL EFFECT
-        // ============================================
         const navbar = document.getElementById('navbar');
 
         window.addEventListener('scroll', function() {
@@ -3102,9 +2948,6 @@
             }
         });
 
-        // ============================================
-        // MOBILE MENU TOGGLE
-        // ============================================
         const navbarToggle = document.getElementById('navbarToggle');
         const navbarLinks = document.getElementById('navbarLinks');
 
@@ -3113,7 +2956,6 @@
             navbarLinks.classList.toggle('active');
         });
 
-        // Close menu when clicking a link
         document.querySelectorAll('.navbar-link').forEach(function(link) {
             link.addEventListener('click', function() {
                 navbarToggle.classList.remove('active');
@@ -3121,9 +2963,6 @@
             });
         });
 
-        // ============================================
-        // SMOOTH SCROLLING
-        // ============================================
         document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
             anchor.addEventListener('click', function(e) {
                 e.preventDefault();
@@ -3141,35 +2980,6 @@
             });
         });
 
-        // ============================================
-        // ACTIVE NAVIGATION LINK
-        // ============================================
-        const sections = document.querySelectorAll('section[id]');
-        const navLinks = document.querySelectorAll('.navbar-link');
-
-        window.addEventListener('scroll', function() {
-            let current = '';
-
-            sections.forEach(function(section) {
-                const sectionTop = section.offsetTop;
-                const sectionHeight = section.clientHeight;
-
-                if (window.pageYOffset >= sectionTop - 200) {
-                    current = section.getAttribute('id');
-                }
-            });
-
-            navLinks.forEach(function(link) {
-                link.classList.remove('active');
-                if (link.getAttribute('href') === '#' + current) {
-                    link.classList.add('active');
-                }
-            });
-        });
-
-        // ============================================
-        // SCROLL TO TOP BUTTON
-        // ============================================
         const scrollTopBtn = document.getElementById('scrollTop');
 
         window.addEventListener('scroll', function() {
@@ -3187,83 +2997,79 @@
             });
         });
 
-        // ============================================
-        // NUMBER COUNTER ANIMATION
-        // ============================================
-        function animateCounter(element) {
-            const target = parseInt(element.getAttribute('data-target'));
-            const duration = 2000;
-            const step = target / (duration / 16);
-            let current = 0;
+        const counters = document.querySelectorAll('.counter');
+        const observerOptions = {
+            threshold: 0.5
+        };
 
-            const updateCounter = function() {
-                current += step;
-                if (current < target) {
-                    element.textContent = Math.floor(current);
-                    requestAnimationFrame(updateCounter);
-                } else {
-                    element.textContent = target;
-                }
-            };
-
-            updateCounter();
-        }
-
-        // Intersection Observer for counters
         const counterObserver = new IntersectionObserver(function(entries) {
             entries.forEach(function(entry) {
                 if (entry.isIntersecting) {
-                    const counters = entry.target.querySelectorAll('.counter');
-                    counters.forEach(function(counter) {
-                        animateCounter(counter);
-                    });
-                    counterObserver.unobserve(entry.target);
+                    const counter = entry.target;
+                    const target = parseInt(counter.getAttribute('data-target'));
+                    const duration = 2000;
+                    const step = target / (duration / 16);
+                    let current = 0;
+
+                    const updateCounter = function() {
+                        current += step;
+                        if (current < target) {
+                            counter.textContent = Math.floor(current);
+                            requestAnimationFrame(updateCounter);
+                        } else {
+                            counter.textContent = target;
+                        }
+                    };
+
+                    updateCounter();
+                    counterObserver.unobserve(counter);
                 }
             });
-        }, { threshold: 0.5 });
+        }, observerOptions);
 
-        // Observe stats sections
-        const heroStats = document.querySelector('.hero-stats');
-        if (heroStats) {
-            counterObserver.observe(heroStats);
-        }
+        counters.forEach(function(counter) {
+            counterObserver.observe(counter);
+        });
 
-        const resultsGrid = document.querySelector('.results-grid');
-        if (resultsGrid) {
-            counterObserver.observe(resultsGrid);
-        }
+        const sections = document.querySelectorAll('section[id]');
+        const navLinks = document.querySelectorAll('.navbar-link');
 
-        // ============================================
-        // FORM SUBMISSION
-        // ============================================
+        window.addEventListener('scroll', function() {
+            let current = '';
+            
+            sections.forEach(function(section) {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                
+                if (window.pageYOffset >= sectionTop - 200) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(function(link) {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === '#' + current) {
+                    link.classList.add('active');
+                }
+            });
+        });
+
         const contactForm = document.getElementById('contactForm');
-
+        
         if (contactForm) {
             contactForm.addEventListener('submit', function(e) {
-                const submitBtn = this.querySelector('button[type="submit"]');
+                const submitBtn = this.querySelector('.form-submit');
                 const originalText = submitBtn.innerHTML;
-
+                
                 submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
                 submitBtn.disabled = true;
 
                 setTimeout(function() {
-                    submitBtn.innerHTML = '<i class="fas fa-check"></i> Sent Successfully!';
-                    submitBtn.style.background = 'linear-gradient(135deg, #10b981 0%, #059669 100%)';
-
-                    setTimeout(function() {
-                        submitBtn.innerHTML = originalText;
-                        submitBtn.style.background = '';
-                        submitBtn.disabled = false;
-                    }, 3000);
-                }, 1500);
+                    submitBtn.innerHTML = originalText;
+                    submitBtn.disabled = false;
+                }, 3000);
             });
         }
-
-        // ============================================
-        // CONSOLE MESSAGE
-        // ============================================
-        console.log('%c Audrey Sinclair ', 'background: linear-gradient(135deg, #0d1b2a, #d4af37); color: white; padding: 15px 30px; font-size: 16px; font-weight: bold; border-radius: 8px;');
-        console.log('%c Strategic Book Marketing Specialist Expert ', 'color: #d4af37; font-size: 12px; font-weight: 500;');
     </script>
 </body>
 </html>
